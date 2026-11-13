@@ -1,20 +1,5 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/clicae",
-      "permanent": false
-    }
-  ],
   "rewrites": [
-    {
-      "source": "/clicae",
-      "destination": "https://seven-linktree-eight.vercel.app/"
-    },
-    {
-      "source": "/clicae/:path*",
-      "destination": "https://seven-linktree-eight.vercel.app/:path*"
-    },
     {
       "source": "/cardapio",
       "destination": "https://seven-cardapio-zeta.vercel.app/"
