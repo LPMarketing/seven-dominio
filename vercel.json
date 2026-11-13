@@ -1,0 +1,43 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/clicae",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/clicae",
+      "destination": "https://seven-linktree-eight.vercel.app/"
+    },
+    {
+      "source": "/clicae/:path*",
+      "destination": "https://seven-linktree-eight.vercel.app/:path*"
+    },
+    {
+      "source": "/cardapio",
+      "destination": "https://seven-cardapio-zeta.vercel.app/"
+    },
+    {
+      "source": "/cardapio/:path*",
+      "destination": "https://seven-cardapio-zeta.vercel.app/:path*"
+    },
+    {
+      "source": "/cardapiogoogle",
+      "destination": "https://seven-google.vercel.app/"
+    },
+    {
+      "source": "/cardapiogoogle/:path*",
+      "destination": "https://seven-google.vercel.app/:path*"
+    },
+    {
+      "source": "/lp",
+      "destination": "https://seven-lounge-lp.vercel.app/"
+    },
+    {
+      "source": "/lp/:path*",
+      "destination": "https://seven-lounge-lp.vercel.app/:path*"
+    }
+  ]
+}
